@@ -8,7 +8,7 @@ import sys
 bot = commands.Bot(command_prefix='$')
 rom_exchange_endpoint = "https://www.romexchange.com/"
 rom_exchange_api = rom_exchange_endpoint + "api"
-bot_token = "NTQ4MzAwNTcyMTc3MjAzMjQ3.D1DvJA.8W0KwOk_0LqdUlJcwqA4pqioBZk"
+bot_token = sys.args[1]
 
 
 @bot.event
